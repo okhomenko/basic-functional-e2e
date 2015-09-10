@@ -1,0 +1,13 @@
+{
+  "name": "basic-functional-e2e",
+  "version": "0.0.0",
+  "scripts": {
+    "preinstall": "npm prune",
+    "postinstall": "webdriver-manager update",
+    "e2e": "protractor --suite app --baseUrl=http://localhost:8080"
+  },
+  "dependencies": {
+    "protractor": "2.x",
+    "babel-core": "5.x"
+  }
+}
